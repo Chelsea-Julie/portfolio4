@@ -970,6 +970,6 @@ button:hover{
     display: none;
 }
 
-.row{
-    
+#rows{
+    justify-content: center;
 }
