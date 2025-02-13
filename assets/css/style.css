@@ -194,6 +194,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-size:cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
 }
 .welcome-hero:before{
     position:absolute;
@@ -697,167 +698,98 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    padding: 80px 0;
 }
-.single-contact-box {padding-top: 100px;}
-.contact-form  .form-group {
-    margin-bottom: 20px;
-    
+
+.section-heading h2 {
+    font-size: 36px;
+    color: #3c4258;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
+
+.single-contact-box {
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
 .contact-form .form-control {
-    padding: 25px;
+    padding: 15px;
     font-size: 14px;
-    border: 1px solid #fff;
-    border-radius: 0px;
+    border: 1px solid #e0e4ed;
+    border-radius: 5px;
     box-shadow: none;
-    outline: 0!important;
+    outline: 0 !important;
     background: #fff;
     color: #636a82;
     resize: none;
+    transition: border-color 0.3s ease;
 }
 
-/*--contct button--*/
+.contact-form .form-control:focus {
+    border-color: #b636ff;
+}
+
 .contact-form .single-contact-btn {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:50px;
-    text-transform:capitalize;
-    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-transform: capitalize;
+    margin-top: 20px;
     background: #b636ff;
     border: 1px solid #b636ff;
-    cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-}
-.contact-form .single-contact-btn .contact-btn ,
-.contact-form .single-contact-btn .contact-btn:focus {
-    margin-top:0px;
-    outline: 0 !important;
-    border:0;
-    color: #fff;
-    border-radius: 0px;
-    font-size:14px;
-    -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-    
-}
-.single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-}
-
-/*--contct button--*/
-
-/* contact-adress */
-.contact-add-head h3 {
-    font-size:  24px;
-    color:  #3c4258;
-}
-.contact-add-head p {
-    font-size:  16px;
-    text-transform: capitalize;
-    color:  #636a82;
-    font-weight:  300;
-    margin-top:  6px;
-}
-/* contact-adress */
-
-/*.contact-add-info */
-.contact-add-info { margin: 42px 0 52px;}
-.single-contact-add-info h3 {
-    color:  #636a82;
-    font-weight:  500;
-}
-.single-contact-add-info p {
-    color:  #999fb3;
-    font-size:  16px;
-    margin-top:  18px;
-}
-.single-contact-add-info {
-    margin-bottom:  26px;
-}
-/*.contact-add-info */
-
-/*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
-.hm-foot-icon ul li{float:left;}
-.hm-foot-icon ul li>a {
-    color: #636a82;
-    margin-right:18px;
-    -webkit-transition: .3s; 
-    -moz-transition:.3s; 
-    -ms-transition:.3s; 
-    -o-transition:.3s;
-    transition: .3s;
-}
-.hm-foot-icon ul li>a:hover{
-    color: #b636ff;
-}/*hm-foot-icon*/
-
-.hm-footer-copyright p{
-    color: #888ea5;
-    text-transform: capitalize;
-    padding: 38px 0;
-}
-.hm-footer-copyright p a {color: #888ea5;}
-/*===============================
-    Scroll Top
-===============================*/
-#scroll-Top  .return-to-top {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    display: none;
-    width: 40px;
-    line-height: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 20px;
     cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, border-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.contact-form .single-contact-btn .contact-btn {
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
-	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
-	-o-transition:.5s;
-    transition: .5s;
-	z-index: 2;
-}
-#scroll-Top  .return-to-top:hover {
-    background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-#scroll-Top  .return-to-top i{
-    position:relative;
-    bottom:0;
-
+.single-contact-btn:hover {
+    background: #9f00ff;
+    border-color: #9f00ff;
 }
 
-#scroll-Top  .return-to-top i{
-    position: relative;
-    animation-name: example;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration:1s;
+.contact-address {
+    padding: 20px;
 }
-@keyframes example {
-    0%   {bottom:0px;}
-    100%  {bottom:7px;}
+
+.contact-add-head h3 {
+    font-size: 24px;
+    color: #3c4258;
+    margin-bottom: 20px;
+}
+
+.contact-add-info {
+    margin-top: 30px;
+}
+
+.single-contact-add-info h3 {
+    font-size: 18px;
+    color: #636a82;
+    margin-bottom: 10px;
+}
+
+.single-contact-add-info p {
+    font-size: 16px;
+    color: #999fb3;
+    margin-bottom: 20px;
 }
 /* /*========================Thank you================= */
 
@@ -942,6 +874,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
   #long-mother{
     height: 650px !important;
+    margin-bottom: 30px;
     && .item{
         height: 100% !important;
     }
@@ -953,6 +886,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   
   /* From Uiverse.io by cssbuttons-io */ 
 button {
+    width: 50px;
+    height: 50px;
     align-items: center;
     background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     border: 0;
@@ -975,24 +910,29 @@ button {
     cursor: pointer;
     transition: all 0.3s;
     transform: scale(0.8);
+    
   }
   
   button:active,
   button:hover {
     outline: 0;
+
   }
   
-  button span {
+  /* button a {
     background-color: rgb(5, 6, 45);
     padding: 16px 24px;
     border-radius: 6px;
     width: 100%;
     height: 100%;
     transition: 300ms;
-  }
+  } */
   
-  button:hover span {
+  button:hover a {
     background: none;
+    padding-bottom: 0 !important;
+    
+    
   }
   
   button:active {
@@ -1009,4 +949,13 @@ button {
     display: flex;
     justify-content: space-evenly !important ;
 }
+
+button:hover{
+    transition: 800ms;
+    background-image: none;
+    background-color: rgb(5, 6, 45) !important;
+
+}
   
+
+
