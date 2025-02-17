@@ -957,19 +957,3 @@ button:hover{
 
 }
 
-#skillz{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-#skillz::before{
-    order: 9;
-}
-
-.row::before{
-    display: none;
-}
-
-#rows{
-    justify-content: center;
-}
