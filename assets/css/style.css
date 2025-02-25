@@ -957,3 +957,43 @@ button:hover{
 
 }
 
+.profiles-content{
+    padding-top: 20px;
+}
+
+
+
+@media (max-width: 770px) {
+    #skillz {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+      gap: 10px; /* Reduce gap for smaller screens */
+      justify-items: center;
+      align-items: center;
+    }
+  
+    .single-profile {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto; /* Center profile blocks */
+    }
+  
+    .profile-txt img {
+      display: block;
+      margin: 0 auto; /* Center images inside profile text */
+    }
+
+    .row::before{
+        display: none;
+    }
+
+    .col-sm-offset-1.col-sm-5{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .experience-time, .timeline-content{
+        text-align: center !important;
+    }
+  }
+  
