@@ -961,6 +961,17 @@ button:hover{
     padding-top: 20px;
 }
 
+.contact-btn:hover{
+    background-color: #ffffff00 !important;
+}
+
+#welcome-hero {
+    .container{
+        align-self: center;
+        margin-top: 75px;
+    }
+}
+
 
 
 @media (max-width: 770px) {
@@ -996,4 +1007,5 @@ button:hover{
         text-align: center !important;
     }
   }
+
   
