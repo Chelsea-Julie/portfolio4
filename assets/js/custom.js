@@ -126,9 +126,17 @@ $(document).ready(function(){
 });	
 	
 function openPDF() {
-	window.open('assets/download/MyCerts.pdf', '_blank');
+	window.open('assets/download/Education.pdf', '_blank');
 }
 
 function badges() {
 	window.open('assets/download/Badges.pdf', '_blank');
+}
+
+function cisco() {
+	window.open('assets/download/cisco.pdf', '_blank');
+}
+
+function aws() {
+	window.open('assets/download/AWS-cert.pdf', '_blank');
 }

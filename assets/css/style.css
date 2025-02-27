@@ -1067,3 +1067,7 @@ button:hover{
       margin: 0 5px; /* Optional: Add margin between buttons for spacing */
     }
   }
+
+  .badges{
+    width: 18rem;
+  }
