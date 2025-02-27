@@ -38,7 +38,7 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
 	font-size:16px;
 	color: #676a81;
 	background: #fff;
@@ -58,8 +58,8 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	color:#43485c;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+	font-family: 'Poppins', sans-serif !important;
+	/* text-transform: capitalize; */
 }
 p {
 	margin: 0;
@@ -402,7 +402,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .barWrapper {
     font-weight: 400;
     font-size: 16px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .progress {
     border-radius:3px;
@@ -465,7 +465,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
-    text-transform: uppercase;
+   
 }
 /*experience-time*/
 
@@ -497,7 +497,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .timeline-content h4.title {
     font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
+  
 }
 .timeline-content h5 {
     color: #636a82;
@@ -1009,3 +1009,46 @@ button:hover{
   }
 
   
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f3e6fb; /* Light purple background */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
+    background: linear-gradient(to right, #d92cf9 0%, #b636ff 100%);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: -webkit-linear-gradient(left, #b636ff, #d92cf9);
+    background: linear-gradient(to right, #b636ff, #d92cf9);
+  }
+  
+  /* For Firefox (solid color fallback) */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #b636ff #f3e6fb; /* Solid purple thumb with light purple track */
+  }
+  
+
+  .cert{
+    margin-left: 70%;
+    width: 18rem;
+  }
+  
+  
+  @media (max-width: 568px) {
+    .cert {
+      right: 90%; /* Moves the button more to the left */
+      
+      padding: 6px 12px;
+      margin-right: 50%;
+    }
+  }

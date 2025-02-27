@@ -125,3 +125,6 @@ $(document).ready(function(){
 
 });	
 	
+function openPDF() {
+	window.open('assets/download/MyCerts.pdf', '_blank');
+}
