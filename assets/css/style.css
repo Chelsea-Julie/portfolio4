@@ -1043,12 +1043,27 @@ button:hover{
     width: 18rem;
   }
   
+  /* .badges{
+    margin-left: 80%;
+    width: 18rem;
+    padding-top: 3rem;
+  }
+   */
+  .candb {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+ 
+
+ 
+
+  @media (max-width: 768px) {
+    .candb {
+      justify-content: center; /* Center the buttons horizontally */
+      width: 100%; /* Ensure the container takes up full width */
+    }
   
-  @media (max-width: 568px) {
-    .cert {
-      right: 90%; /* Moves the button more to the left */
-      
-      padding: 6px 12px;
-      margin-right: 50%;
+    .cert, .badges {
+      margin: 0 5px; /* Optional: Add margin between buttons for spacing */
     }
   }

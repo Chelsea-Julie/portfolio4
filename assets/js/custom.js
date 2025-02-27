@@ -128,3 +128,7 @@ $(document).ready(function(){
 function openPDF() {
 	window.open('assets/download/MyCerts.pdf', '_blank');
 }
+
+function badges() {
+	window.open('assets/download/Badges.pdf', '_blank');
+}
